@@ -1,0 +1,80 @@
+.food-item-tile {
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px rgb(204, 204, 204);
+    height: 300px;
+    width: 280px;
+    margin: 25px;
+    overflow: hidden;
+    position: relative;
+}
+
+.food-image {
+    width: 100%;
+    height: 75%
+}
+
+.item-name {
+    padding: 10px 10px 0px 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.item-details {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.rating, .cooking-time, .new-item {
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    color: #666;
+    display: flex;
+    font-size: 15px;
+    height: 15px;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.new-item {
+    color: rgb(66, 216, 186);
+    font-weight: bold;
+}
+
+.star-rating-icon {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px
+}
+
+.promotion {
+    align-items: center;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    position: absolute;
+    width: 60px;
+    z-index: 10;
+    font-weight: bold;
+}
+
+.gift {
+    background-color: rgb(2, 187, 255);
+}
+
+.buy-one-get-two {
+    background-color: rgb(209, 49, 209);
+    color: white;
+}
+
+.discount {
+    background-color: rgb(241, 69, 78);
+    color: white;
+}
+
+.promotion-icon {
+    height: 30px;
+    width: 30px;
+}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './TabMenu.css';
 
 const TabMenu = ({categories, selectedTab, setSelectedTab}) => {

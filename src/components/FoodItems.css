@@ -1,0 +1,4 @@
+.food-items-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
