@@ -63,13 +63,13 @@ const App = () => {
     }
 
     const renderShowAllBtn = () => {
-        return showAll ? null : (
+        return showAll ? null : foodItems['0'] ? (
             <div className='show-more-btn-cont'>
                 <div className='show-more-btn' onClick={e => setShowAll(true)}>
                     + Show More
                 </div>
             </div>
-        );
+        ) : null;
     }
 
     return (
