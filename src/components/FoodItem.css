@@ -8,6 +8,10 @@
     position: relative;
 }
 
+.food-item-tile:hover {
+    transform: scale(1.05);
+}
+
 .food-image {
     width: 100%;
     height: 75%

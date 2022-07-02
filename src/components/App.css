@@ -14,3 +14,7 @@
     padding: 0px 20px;
     width: 100px;
 }
+
+.show-more-btn:hover {
+    transform: scale(1.1)
+}
