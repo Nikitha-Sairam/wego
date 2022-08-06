@@ -16,6 +16,7 @@ const App = () => {
     //Fetch all the data for display when the GUI loads initially
     useEffect(() => {
         const fetchCategories = async () => {
+          performance.now();
             const featchedCategories = await axios.get(
                 "https://run.mocky.io/v3/f25ced0a-9ff7-4996-bdc7-430f281c48db"
             );
@@ -32,7 +33,9 @@ const App = () => {
                 }
                 itemsObj[item.categoryId].push(item);
             });
+            performance.now();
             setFoodItems({0:[...fetchedFoodItems.data], ...itemsObj});
+
         }
         fetchCategories();
     }, []);
@@ -72,6 +75,10 @@ const App = () => {
         ) : null;
     }
 
+    const scrollToTop = () => {
+      window.scrollTo(0,0);
+    }
+
     return (
         <div style={{padding: '30px', fontFamily: 'sans-serif'}}>
             <SearchBar searchText={searchText} setSearchText={setSearchText}/>
@@ -82,6 +89,7 @@ const App = () => {
             />
             <FoodItems foodItems={selectedFoodList}/>
             {renderShowAllBtn()}
+            <button className="show-more-btn scroll-top" onClick={scrollToTop}>Top</button>
         </div>
     );
 };

@@ -4,9 +4,14 @@ import star from './star.svg';
 import gift from './gift.png';
 
 const FoodItem = ({foodItem}) => {
-    const isNew = () => {
+    
+    const isNew =  () => {
         return foodItem.isNew ? <div className='new-item'>New</div> : null;
     }
+
+    // function isNew() {
+    //   return foodItem.isNew ?  <div className='new-item'>New</div> : null;
+    // }
 
     const renderOffers = () => {
         switch(foodItem.promotion) {

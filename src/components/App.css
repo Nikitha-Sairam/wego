@@ -18,3 +18,9 @@
 .show-more-btn:hover {
     transform: scale(1.1)
 }
+
+.scroll-top {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
