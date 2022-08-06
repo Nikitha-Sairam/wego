@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/wego/static/css/main.9034c18a.css",
-    "main.js": "/wego/static/js/main.a17c4208.js",
+    "main.css": "/wego/static/css/main.0b5db803.css",
+    "main.js": "/wego/static/js/main.5bed63ae.js",
     "static/media/searchIcon.svg": "/wego/static/media/searchIcon.82bab8dc50ee7e4d907a7e0f3752d537.svg",
     "static/media/star.svg": "/wego/static/media/star.c4a28766045bf9eef448c9454867db59.svg",
     "index.html": "/wego/index.html",
-    "main.9034c18a.css.map": "/wego/static/css/main.9034c18a.css.map",
-    "main.a17c4208.js.map": "/wego/static/js/main.a17c4208.js.map"
+    "main.0b5db803.css.map": "/wego/static/css/main.0b5db803.css.map",
+    "main.5bed63ae.js.map": "/wego/static/js/main.5bed63ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.9034c18a.css",
-    "static/js/main.a17c4208.js"
+    "static/css/main.0b5db803.css",
+    "static/js/main.5bed63ae.js"
   ]
 }
